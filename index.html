@@ -10,24 +10,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    
-    <link rel="stylesheet" href="general.css"/>
-    <link rel="stylesheet" href="style.css"/>
+
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <section class="heroSection">
         <header>
-            <logo class="logo"><p class="mr-5 menu" onclick="menu()">LeeJay</logo>
+            <logo class="logo">
+                <p class="ml-5">LeeJay </p>
+                <p class="mr-5 menu" onclick="menu()">Menu</p>
+            </logo>
         </header>
         <div class="intro">
-            <h1 class="ml-10 introHeading">Jay Lee</h1>
+            <h1 class="ml-10 introHeading firstHeading">Jay Lee</h1>
             <h1 class="ml-10 introHeading">COOP 2501</h1>
         </div>
-        <div class="greeting ml-10">
+        <div class="greeting ml-10 mr-10 grid greetingGrid">
             <p class="greetingMessage">
-                Hello! My name is Jay Seung Yeon Lee and I'm a second year student at Langara College. 
+                Hello <span class="highlight">:) </span>! My name is <span class="highlight">Jay Seung Yeon Lee </span>
+                and I'm a second year student at Langara College. I would like to
+                share some bits from my co-op experience in hopes it can help fellow <span class="highlight">Langara
+                    students</span> in co-op program. <span class="highlight">Scroll down </span> to see some main key
+                points for this presentation!
             </p>
+            <div class="whatIDo">
+                <h3><span class="highlight">QA</span></h3>
+                <h3><span class="highlight">SD</span>ET</h3>
+                <h3><span class="highlight">FE</span> Dev</h3>
+            </div>
+        </div>
+    </section>
+    <section class="keyPoints ml-10 mr-10">
+        <div class="divider"></div>
+        <div class="points">
+            <span class="pointsDescription">
+                <h2 class="pointsHeading">About Pixieset</h2>
+                <p class="greetingMessage highlight"> Innovative business for photographers</p>
+            </span>
+            <img class="pointsImg" src="img/pixiesetDashboard.jpg" alt="photo of pixieset's business dashboard"/>
+        </div>
+        <div class="divider"></div>
+        <div class="points">
+            <span class="pointsDescription">
+                <h2 class="pointsHeading">About Pixieset</h2>
+                <p class="greetingMessage highlight"> Innovative business for photographers</p>
+            </span>
+            <img class="pointsImg" src="img/pixiesetDashboard.jpg" alt="photo of pixieset's business dashboard"/>
+        </div>
+        <div class="divider"></div>
+        <div class="points">
+            <span class="pointsDescription">
+                <h2 class="pointsHeading">About Pixieset</h2>
+                <p class="greetingMessage highlight"> Innovative business for photographers</p>
+            </span>
+            <img class="pointsImg" src="img/pixiesetDashboard.jpg" alt="photo of pixieset's business dashboard"/>
         </div>
     </section>
 </body>

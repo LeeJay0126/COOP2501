@@ -1,10 +1,13 @@
-.heroSection{
-    background-color: #ebe3de;
-}
+/*
+Hero Section && header section
+*/
 
 
 header {
     margin-bottom: 10rem;
+    position:fixed;
+    top: 0;
+    width: 100%;
 }
 
 .introHeading {
@@ -12,4 +15,66 @@ header {
     color:#2c2821;
     font-weight: 500;
     letter-spacing: 1rem;
+}
+
+.firstHeading {
+    margin-top: 10vw;
+}
+
+.greeting {
+    margin-top: 5rem;
+    margin-bottom: 10vw;
+}
+
+.greetingGrid {
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.greetingMessage {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+
+.highlight {
+    color: #8d8885;
+}
+
+.whatIDo {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: end;
+    font-size: 3vw;
+}
+
+/*
+    Main Key points in the presentation
+*/
+
+.divider {
+    width: 100%;
+    background-color: #000;
+    height: 2px;
+}
+
+.points {
+    display:flex;
+    justify-content: space-between;
+    height: 15vw;
+    margin-bottom: 5vw;
+}
+
+.pointsDescription {
+    margin-top: 5vw;
+}
+
+.pointsImg {
+    height:100%;
+}
+
+.pointsHeading {
+    font-size: 3vw;
 }

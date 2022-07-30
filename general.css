@@ -12,15 +12,16 @@ body {
     font-family: "Rubik", sans-serif;
     line-height: 1;
     font-weight: 400;
+    background-color: #ebe3de;
 }
 
 .logo {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     letter-spacing: 3px;
     font-size: 3rem;
     color: #2c2821;
-    padding: 1rem 1.5rem;
+    padding: 3rem 1.5rem;
 }
 
 .menu {
@@ -31,14 +32,22 @@ body {
     font-weight: 500;
 }
 
+.grid {
+    display: grid;
+}
+
 .ml-5 {
-    margin-left: 5rem;
+    margin-left: 5vw;
 }
 
 .ml-10 {
-    margin-left: 10rem;
+    margin-left: 10vw;
+}
+
+.mr-10 {
+    margin-right: 10vw;
 }
 
 .mr-5 {
-    margin-right: 5rem;
+    margin-right: 5vw;
 }
