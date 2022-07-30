@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    color: #2c2821;
+    padding: 1rem 1.5rem;
+}
+
+.menu {
+    transition: all 0.2s;
+}
+
+.menu:hover, .menu:active {
+    font-weight: 500;
+}
+
+.ml-5 {
+    margin-left: 5rem;
+}
+
+.ml-10 {
+    margin-left: 10rem;
+}
+
+.mr-5 {
+    margin-right: 5rem;
+}

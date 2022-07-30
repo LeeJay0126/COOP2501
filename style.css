@@ -1,0 +1,15 @@
+.heroSection{
+    background-color: #ebe3de;
+}
+
+
+header {
+    margin-bottom: 10rem;
+}
+
+.introHeading {
+    font-size: 12vw;
+    color:#2c2821;
+    font-weight: 500;
+    letter-spacing: 1rem;
+}
