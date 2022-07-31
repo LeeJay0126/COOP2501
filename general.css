@@ -33,6 +33,15 @@ body {
     cursor: pointer;
 }
 
+.sideBar {
+    width: 30vw;
+    position: fixed;
+    height: 100%;
+    max-width: 50rem;
+    z-index: 5;
+
+}
+
 .grid {
     display: grid;
 }
