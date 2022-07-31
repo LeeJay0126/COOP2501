@@ -30,6 +30,7 @@ body {
 
 .menu:hover, .menu:active {
     font-weight: 500;
+    cursor: pointer;
 }
 
 .grid {

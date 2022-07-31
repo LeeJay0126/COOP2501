@@ -63,16 +63,17 @@ header {
 .points {
     display:flex;
     justify-content: space-between;
-    height: 15vw;
+    height: 20vw;
     margin-bottom: 5vw;
 }
 
 .pointsDescription {
-    margin-top: 5vw;
+    margin-top: 10vw;
 }
 
 .pointsImg {
     height:100%;
+    width: 40vw;
 }
 
 .pointsHeading {
