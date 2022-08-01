@@ -15,6 +15,11 @@ body {
     background-color: #ebe3de;
 }
 
+main {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: #8d8885;
@@ -96,6 +101,16 @@ a:active, a:hover {
     font-size: 2.4rem;
 }
 
+.heroImgSection {
+    display: flex;
+    justify-content: center;
+}
+
+.heroImg {
+    width: 80%;
+}
+
+
 .grid {
     display: grid;
 }
@@ -104,8 +119,16 @@ a:active, a:hover {
     grid-template-columns: 2fr 1fr;
 }
 
+.grid--2-cols-1-2 {
+    grid-template-columns: 1fr 2fr;
+}
+
 .grid--2-cols-3-1 {
     grid-template-columns: 3fr 1fr;
+}
+
+.grid--2-cols-1-4 {
+    grid-template-columns: 1fr 4fr;
 }
 
 .ml-5 {
@@ -122,4 +145,8 @@ a:active, a:hover {
 
 .mr-5 {
     margin-right: 5vw;
+}
+
+.mb-5rem {
+    margin-bottom: 5rem;
 }

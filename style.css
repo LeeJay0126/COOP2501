@@ -89,7 +89,7 @@ pixieset.html css
     margin-bottom: 2vw;
 }
 
-.title span {
+.descriptionTitle {
     font-size: 5vw;
     font-weight: 600;
     letter-spacing: 5px;
@@ -100,4 +100,39 @@ pixieset.html css
     line-height: 1.5;
     font-weight: 450;
     letter-spacing: 1px;
+    margin-bottom: 5rem;
+}
+
+.jobDescription {
+    margin-top: 10rem;
+}
+
+.jobH3 {
+    font-size: 2vw;
+    margin: 0 0 2rem 2rem;
+}
+
+.footerDecoration {
+    display: flex;
+    height: 10vw;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-top: 5rem;
+}
+
+.dec {
+    width: 5px;
+    background-color: black;
+}
+
+.shorterDec {
+    height: 40%;
+}
+
+.mdmDec {
+    height: 70%;
+}
+
+.longDec {
+    height: 100%;
 }
