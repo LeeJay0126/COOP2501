@@ -15,6 +15,18 @@ body {
     background-color: #ebe3de;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: #8d8885;
+    transition: 0.2s;
+}
+
+a:active, a:hover {
+    text-decoration: none;
+    color: #8d8885;
+    font-weight: 500;
+}
+
 .logo {
     display: flex;
     justify-content: space-between;
@@ -26,6 +38,13 @@ body {
 
 .menu {
     transition: all 0.2s;
+    z-index: 300;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    padding: 3rem 1.5rem;
+    justify-self: right;
+    z-index: 10;
+    position: relative;
 }
 
 .menu:hover, .menu:active {
@@ -33,13 +52,44 @@ body {
     cursor: pointer;
 }
 
+.header{
+    z-index: 300;
+}
+
 .sideBar {
-    width: 30vw;
+    width: 50vw;
     position: fixed;
     height: 100%;
-    max-width: 50rem;
-    z-index: 5;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
 
+    right: 0rem;
+    top: 0rem;
+    background-color: rgb(247, 240, 235);
+    transform: translate(800px,0);
+    transition: all 0.4s;
+
+}
+
+.catchPhrase{
+    margin-top: 15rem;
+}
+
+.Phrases {
+    padding: 1.5rem 8rem;
+    font-size: 4.7rem;
+}
+
+.sideBar ul {
+    list-style-type: none;
+    padding: 2rem 8rem;
+    margin-top: 2vw;
+}
+
+.sideBar ul li {
+    margin-bottom: 3.6rem;
+    font-size: 2.4rem;
 }
 
 .grid {
