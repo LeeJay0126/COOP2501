@@ -79,3 +79,25 @@ header {
 .pointsHeading {
     font-size: 3vw;
 }
+
+/* 
+pixieset.html css 
+*/
+
+.title {
+    margin-top: 10vw;
+    margin-bottom: 2vw;
+}
+
+.title span {
+    font-size: 5vw;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.pixieGreet {
+    font-size: 1vw;
+    line-height: 1.5;
+    font-weight: 450;
+    letter-spacing: 1px;
+}

@@ -36,12 +36,16 @@ a:active, a:hover {
     padding: 3rem 1.5rem;
 }
 
+.logoBtn {
+    cursor: pointer;
+}
+
 .menu {
     transition: all 0.2s;
     z-index: 300;
     letter-spacing: 3px;
     font-size: 3rem;
-    padding: 3rem 1.5rem;
+    padding: 0rem 1.5rem;
     justify-self: right;
     z-index: 10;
     position: relative;
@@ -94,6 +98,14 @@ a:active, a:hover {
 
 .grid {
     display: grid;
+}
+
+.grid--2-cols-2-1 {
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid--2-cols-3-1 {
+    grid-template-columns: 3fr 1fr;
 }
 
 .ml-5 {
