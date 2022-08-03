@@ -112,27 +112,29 @@ pixieset.html css
     margin: 0 0 2rem 2rem;
 }
 
-.footerDecoration {
-    display: flex;
+.spaceFooter {
     height: 10vw;
-    justify-content: space-evenly;
-    align-items: end;
-    margin-top: 5rem;
 }
 
-.dec {
-    width: 5px;
-    background-color: black;
+/* 
+Learning Section 
+*/
+
+.learningHero{
+    display: flex;
+    height: 50vw;
+    background: no-repeat center/90%;
+    background-image: url("img/pixiesetCG.jpg");
 }
 
-.shorterDec {
-    height: 40%;
+.learningTitle{
+    margin: 15vw 0 0 8vw;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
 }
 
-.mdmDec {
-    height: 70%;
-}
-
-.longDec {
-    height: 100%;
+.lightDescription{
+    font-size: 2.5vw;
+    font-style: italic;
 }
