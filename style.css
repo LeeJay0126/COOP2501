@@ -173,3 +173,60 @@ Learning Section
     width: 100%;
     align-self: center;
 }
+
+/*
+Job search section
+*/
+
+.jobHero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 40vw;
+}
+
+.jobImgHolder {
+    align-self: center;
+}
+
+.jobImgHolder img {
+    width: 100%;
+}
+
+.jobSearchHeroText {
+    align-self: center;
+}
+
+.jobSearchHeroText h1{
+    font-size: 2vw;
+    font-weight: 750;
+    margin-bottom: 1vw;
+}
+
+.jobSearchSubHeading {
+    margin-bottom: 0.3vw;
+    font-size: 1.4vw;
+}
+
+.buttons {
+    margin-top: 2vw;
+    display: flex;
+    gap: 10vw;
+}
+
+.btnGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.btnGroup a {
+    font-size: 2vw;
+    padding: 1vw 2vw;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.03);
+    margin-bottom: 1vw;
+}
+
+.btnText {
+    font-size: 0.8vw;
+}
