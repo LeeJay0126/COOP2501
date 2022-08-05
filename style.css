@@ -182,6 +182,7 @@ Job search section
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 40vw;
+    margin-bottom: 10vw;
 }
 
 .jobImgHolder {
@@ -211,6 +212,7 @@ Job search section
     margin-top: 2vw;
     display: flex;
     gap: 10vw;
+    margin-bottom: 5vw;
 }
 
 .btnGroup {
@@ -225,8 +227,84 @@ Job search section
     padding: 1vw 2vw;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.03);
     margin-bottom: 1vw;
+    color: #cf711f;
+}
+
+.orange{
+    color:orange;
 }
 
 .btnText {
     font-size: 0.8vw;
+    font-weight: 600;
 }
+
+.logo-flex {
+    display: flex;
+    gap: 7vw;
+    align-items: center;
+}
+
+.jobCircles {
+    display: flex;
+}
+
+.jobCircles img {
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    margin-right: -1vw;
+    border: 0.15vw solid #ebe3de;
+    background-color: white;
+}
+
+.jobCatchPhrase {
+    font-size: 1vw;
+    font-weight: 550;
+}
+
+.jobSearch h2 {
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+}
+
+.jobsMainHeader {
+    font-size: 3vw;
+    margin-bottom: 5vw;
+}
+
+.stepFlex {
+    align-items: center;
+}
+
+.StepNumber {
+    font-size: 15vw;
+    font-weight: 800;
+    color: orange;
+}
+
+.stepHeading {
+    font-size: 2vw;
+    margin-bottom: 3vw;
+}
+
+.stepTexts {
+    font-size: 1vw;
+    line-height: 1.4;
+}
+
+.stepImgBox {
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.stepImg {
+    width: 75%;
+    border-radius: 50%;
+    border-width: 1.5vw;
+    border-style: solid ;
+    border-color: orange;
+}
+
+
