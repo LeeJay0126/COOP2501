@@ -275,6 +275,7 @@ Job search section
 
 .stepFlex {
     align-items: center;
+    margin-bottom: 10vw;
 }
 
 .StepNumber {
@@ -296,15 +297,16 @@ Job search section
 .stepImgBox {
     padding: 2vw;
     display: flex;
+    position: relative;
+    align-items: center;
     justify-content: center;
 }
 
 .stepImg {
-    width: 75%;
+    width: 90%;
+    height: 90%;
     border-radius: 50%;
-    border-width: 1.5vw;
-    border-style: solid ;
-    border-color: orange;
+    border-width: 1vw;
+    border-color: rgb(223, 219, 212);
+    border-style: solid;
 }
-
-
