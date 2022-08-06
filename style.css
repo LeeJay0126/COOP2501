@@ -297,7 +297,6 @@ Job search section
 .stepImgBox {
     padding: 2vw;
     display: flex;
-    position: relative;
     align-items: center;
     justify-content: center;
 }
