@@ -135,6 +135,12 @@ a:active, a:hover {
     grid-template-columns: 1fr 4fr;
 }
 
+.grid--3-cols {
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
 .ml-5 {
     margin-left: 5vw;
 }

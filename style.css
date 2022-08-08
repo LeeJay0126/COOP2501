@@ -309,3 +309,28 @@ Job search section
     border-color: rgb(223, 219, 212);
     border-style: solid;
 }
+
+/*
+workterm section
+*/
+
+.worktermHero {
+    margin-top: 8vw;
+}
+
+.heroHeading {
+    font-size: 3vw;
+    letter-spacing: 4px;
+    font-weight: 800;
+    margin-bottom: 1vw;
+}
+
+.heroText {
+    padding-left: 0.5vw;
+    font-size: 1.8vw;
+}
+
+.tips {
+    font-size: 2vw;
+    margin-top: 8vw;
+}
