@@ -333,4 +333,11 @@ workterm section
 .tips {
     font-size: 2vw;
     margin-top: 8vw;
+    margin-bottom: 1vw;
+}
+
+.tips-desc {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
 }
